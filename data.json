@@ -1,0 +1,270 @@
+{
+    "name": "Islam Kathat",
+    "role": "AI/ML Engineer & Full Stack Developer",
+    "tagline": "Building intelligent, beautiful digital experiences",
+    "bio": "Passionate developer focused on AI/ML, intelligent systems, and next-generation applications. I build AI-powered products and use full-stack and mobile technologies as supporting tools to deliver scalable solutions with thoughtful design and real-world impact.",
+    "avatar": "assets/avatar-placeholder.png",
+    "stats": {
+        "yearsExperience": "2+",
+        "projectsCompleted": "15+",
+        "techStack": "20+"
+    },
+    "skills": {
+        "AI/ML": [
+            "Transformer",
+            "TensorFlow",
+            "PyTorch",
+            "Scikit-learn",
+            "NLP",
+            "Computer Vision"
+        ],
+        "Backend": [
+            "Python",
+            "Flask",
+            "FastAPI",
+            "Node.js",
+            "Express",
+            "SQL",
+            "PostgreSQL",
+            "MongoDB"
+        ],
+        "Frontend": [
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "TypeScript",
+            "HTML/CSS"
+        ],
+        "Mobile": [
+            "React Native",
+            "Expo"
+        ],
+        "Tools": [
+            "Git",
+            "Docker",
+            "AWS",
+            "Redis",
+            "Firebase",
+            "Figma"
+        ]
+    },
+    "projects": [
+        {
+            "id": 1,
+            "title": "RAG System",
+            "category": "AI/ML",
+            "description": "Full-stack Retrieval-Augmented Generation system using FastAPI, ChromaDB, and LLaMA 3.1 via Ollama. Integrated SearXNG web search, Trafilatura scraping, multi-format document ingestion, Sentence Transformers embeddings, overlapping chunking, and cross-encoder re-ranking for accurate real-time retrieval.",
+            "tech": [
+                "FastAPI",
+                "ChromaDB",
+                "Ollama",
+                "SearXNG",
+                "Sentence Transformers"
+            ],
+            "screenshot": "assets/projects/rag.png",
+            "github": "https://github.com/FazeFlynn/RAG_BACKEND",
+            "live": "https://rag-frontend-azure-phi.vercel.app/"
+        },
+        {
+            "id": 2,
+            "title": "MNIST Digit Classifier",
+            "category": "AI/ML",
+            "description": "Built multiple digit classification models including MLP, SelectKBest-optimized model, and CNN with BatchNorm achieving 90%+ accuracy. Implemented training optimization techniques, EDA, and performance validation using confusion matrices and classification reports.",
+            "tech": [
+                "TensorFlow",
+                "Keras",
+                "TFLite",
+                "Scikit-learn",
+                "Seaborn",
+                "Matplotlib"
+            ],
+            "screenshot": "assets/projects/mnist-classifier.png",
+            "github": "https://github.com/FazeFlynn/Dig_Classification",
+            "live": "https://github.com/FazeFlynn/Dig_Classification"
+        },
+        {
+            "id": 3,
+            "title": "CIFAR-10 Object Classifier",
+            "category": "AI/ML",
+            "description": "Designed multiple image classification architectures including CNN (92%), ResNet (95%), and EfficientNetV2B0 transfer learning (97%). Applied MixUp, CutMix, Cutout augmentation techniques and exported production-ready models.",
+            "tech": [
+                "TensorFlow",
+                "Keras",
+                "EfficientNetV2",
+                "TFLite",
+                "NumPy",
+                "Matplotlib"
+            ],
+            "screenshot": "assets/projects/cifar-classifier.png",
+            "github": "https://github.com/FazeFlynn/CIFAR-CLASSIFIER",
+            "live": "https://github.com/FazeFlynn/CIFAR-CLASSIFIER"
+        },
+        {
+            "id": 4,
+            "title": "CarBike4U",
+            "category": "Full Stack",
+            "description": "Automobile marketplace platform built with a microservices architecture. Implemented Redis caching, RabbitMQ messaging, MongoDB aggregations, AI-powered content rewriting, web scraping pipelines, and AWS S3 storage.",
+            "tech": [
+                "Next.js",
+                "Node.js",
+                "MongoDB",
+                "Redis",
+                "RabbitMQ",
+                "Docker",
+                "AWS S3"
+            ],
+            "screenshot": "assets/projects/test-pro.png",
+            "github": "#",
+            "live": "https://carbike4u.com/"
+        },
+        {
+            "id": 5,
+            "title": "Hotel POS System",
+            "category": "Full Stack",
+            "description": "QR-based hotel POS platform with digital menus, kitchen order tracking, payment management, inventory control, analytics dashboards, PDF/Excel exports, and real-time revenue monitoring.",
+            "tech": [
+                "Next.js",
+                "MongoDB",
+                "Redis",
+                "AWS S3",
+                "Chart.js"
+            ],
+            "screenshot": "assets/projects/test-2.png",
+            "github": "NA",
+            "live": "https://aju.jsbglobalinfotech.com/"
+        },
+        {
+            "id": 6,
+            "title": "SBlast App",
+            "category": "Mobile App",
+            "description": "Offline-first React Native application for mine blasting operations with RealmDB synchronization, interactive borehole visualizations, blast charts, filtering, and reduced field data entry time.",
+            "tech": [
+                "React Native",
+                "RealmDB",
+                "React Native SVG",
+                "HTML Canvas"
+            ],
+            "screenshot": "assets/projects/test-3.png",
+            "github": "no-link",
+            "live": "https://mineexcellence.com/"
+        },
+        {
+            "id": 7,
+            "title": "BTTN App",
+            "category": "Mobile App",
+            "description": "Ride-hailing application supporting real-time ride assignments, live driver notifications, Google Maps integration, and real-time location updates with navigation support.",
+            "tech": [
+                "React Native",
+                "Expo",
+                "WebSockets",
+                "Firebase",
+                "Google Maps API"
+            ],
+            "screenshot": "assets/projects/bttn-app.png",
+            "github": "#",
+            "live": "https://admin.bttnservices.com/"
+        },
+        {
+            "id": 8,
+            "title": "AI Club",
+            "category": "Desktop App",
+            "description": "Desktop productivity application allowing users to interact with multiple AI platforms through a single prompt and receive responses from all AI systems in parallel.",
+            "tech": [
+                "Electron",
+                "HTML",
+                "CSS",
+                "Webviews"
+            ],
+            "screenshot": "assets/projects/ai-club.png",
+            "github": "https://github.com/FazeFlynn/AI-Club",
+            "live": "https://github.com/FazeFlynn/AI-Club"
+        },
+        {
+            "id": 9,
+            "title": "Web Controls for Students",
+            "category": "Chrome Extension",
+            "description": "Productivity-focused browser extension that enables dark mode for websites and videos, video playback controls up to 8x speed, and custom filters for an improved learning experience.",
+            "tech": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "screenshot": "assets/projects/web-controls.png",
+            "github": "https://github.com/FazeFlynn/Web-Controls",
+            "live": "https://chromewebstore.google.com/detail/web-controls-for-students/cebfhocehpaleaipocacbppidnpgodki?pli=1"
+        },
+        {
+            "id": 10,
+            "title": "YouTube Controls for Students",
+            "category": "Chrome Extension",
+            "description": "Chrome extension for YouTube providing dark mode, advanced video playback controls, custom filters, and productivity enhancements tailored for students.",
+            "tech": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "screenshot": "assets/projects/youtube-controls.png",
+            "github": "https://github.com/FazeFlynn/Web-Controls",
+            "live": "https://chromewebstore.google.com/detail/youtube-controls-for-stud/hhpfppdofgfkkdediiepaeogdnihmbdj"
+        }
+    ],
+    "experience": [
+        {
+            "role": "MERN Stack Developer",
+            "company": "JSB Global Infotech",
+            "period": "May 2025 - May 2026 | Full Time",
+            "description": "Engineered React Native (Expo) applications and deployed React.js/Next.js web platforms, including admin panels and public-facing frontends. Architected backend microservices using Redis, Docker, AWS S3, and AI pipelines to automate scraping and rewriting automotive blogs/news content. Delivered data-driven web and mobile apps using REST APIs, RealmDB, and advanced MongoDB pipelines, reducing response time by 35%."
+        },
+        {
+            "role": "Data Science Intern",
+            "company": "CodeAlpha",
+            "period": "July 2024 - August 2024 | Remote",
+            "description": "Applied feature engineering on datasets, boosting ML model accuracy by 70%. Enhanced ML model accuracy by 15% through data visualization and optimization techniques. Achieved a 90% precision rate while delivering all tasks ahead of project deadlines."
+        },
+        {
+            "role": "Data Science Intern",
+            "company": "Cognifyz Technologies",
+            "period": "June 2024 - July 2024 | Remote",
+            "description": "Performed data preprocessing, cleaning, and exploratory data analysis on real-world datasets. Developed machine learning models for predictive analysis and evaluated performance using key metrics. Built visualizations and generated actionable insights to support data-driven decision-making."
+        }
+    ],
+    "education": [
+        {
+            "degree": "MCA in Computer Science",
+            "institution": "JECRC University",
+            "year": "2023 - 2025",
+            "specialization": "Data Science",
+            "achievements": "CGPA: 8.57 | Jaipur, Rajasthan"
+        },
+        {
+            "degree": "BCA in Computer Science",
+            "institution": "MDS University",
+            "year": "2021 - 2023",
+            "specialization": "Full Stack Development",
+            "achievements": "CGPA: 7.68 | Ajmer, Rajasthan"
+        }
+    ],
+    "testimonials": [
+        {
+            "quote": "Islam delivered an exceptional product that exceeded our expectations. His attention to detail and technical expertise is remarkable.",
+            "name": "Sarah Chen",
+            "role": "CTO, TechCorp Solutions"
+        },
+        {
+            "quote": "Working with Islam was a fantastic experience. He brought our vision to life with clean code and beautiful design.",
+            "name": "Alex Rivera",
+            "role": "Product Manager, Digital Nexus"
+        },
+        {
+            "quote": "His AI/ML expertise combined with full-stack skills makes him a rare and valuable developer. Highly recommended.",
+            "name": "Dr. Priya Sharma",
+            "role": "Lead Researcher, AI Labs"
+        }
+    ],
+    "socials": {
+        "github": "https://github.com/islamkathat",
+        "linkedin": "https://linkedin.com/in/islamkathat",
+        "twitter": "https://twitter.com/islamkathat",
+        "email": "islam.kathat@email.com"
+    }
+}
