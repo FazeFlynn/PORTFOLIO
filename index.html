@@ -1399,9 +1399,7 @@
 
                 <p class="text-sm leading-relaxed mb-6"
                    style="color:rgba(255,255,255,.55)">
-                    The source code for this project cannot be shared
-                    because of confidentiality agreements with the company.
-                    You can visit the company website to explore the project.
+                    The source code for this project cannot be publicly shared due to confidentiality agreements with the company. However, I would be happy to discuss the architecture, technologies, challenges, and my contributions during an interview. If repository access is required for evaluation purposes, please contact me and I can explore appropriate access options where permitted.
                 </p>
 
                 <a href="${sanitize(liveUrl)}"
@@ -1528,10 +1526,9 @@
 
                 <p class="text-sm leading-relaxed mb-6"
                    style="color:rgba(255,255,255,.55)">
-                    The source code for this project cannot be shared
-                    because of confidentiality agreements with the company.
-                    You can visit the company website to explore the project.
+                   The source code for this project cannot be publicly shared due to confidentiality agreements with the company. However, I would be happy to discuss the architecture, technologies, challenges, and my contributions during an interview. If repository access is required for evaluation purposes, please contact me and I can explore appropriate access options where permitted.
                 </p>
+
 
                 <a href="${sanitize(liveUrl)}"
                    class="btn-primary"
@@ -1540,6 +1537,17 @@
 
                    <i class="fas fa-external-link-alt mr-2"></i>
                    Visit Website
+                </a>
+
+                <a
+                    href="#contact"
+                    onclick="closeModal(); setTimeout(() => {
+                        document.querySelector('#contact')
+                        ?.scrollIntoView({ behavior: 'smooth' });
+                    }, 100)"
+                    class="ml-2 btn-outline inline-flex items-center justify-center gap-2"
+                >
+                    Contact me
                 </a>
 
             </div>

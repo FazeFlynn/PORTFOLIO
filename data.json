@@ -120,7 +120,7 @@
                 "AWS S3"
             ],
             "screenshot": "assets/projects/cb4u.png",
-            "github": "#",
+            "github": "no-link",
             "live": "https://carbike4u.com/"
         },
         {
@@ -136,7 +136,7 @@
                 "Chart.js"
             ],
             "screenshot": "assets/projects/hotelpos.png",
-            "github": "NA",
+            "github": "no-link",
             "live": "https://aju.jsbglobalinfotech.com/"
         },
         {
@@ -167,7 +167,7 @@
                 "Google Maps API"
             ],
             "screenshot": "assets/projects/bttn.png",
-            "github": "#",
+            "github": "no-link",
             "live": "https://admin.bttnservices.com/"
         },
         {
