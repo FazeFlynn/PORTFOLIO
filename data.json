@@ -78,7 +78,7 @@
                 "Seaborn",
                 "Matplotlib"
             ],
-            "screenshot": "assets/projects/mnist-classifier.png",
+            "screenshot": "assets/projects/dig_rec.png",
             "github": "https://github.com/FazeFlynn/Dig_Classification",
             "live": "https://github.com/FazeFlynn/Dig_Classification"
         },
@@ -95,7 +95,7 @@
                 "NumPy",
                 "Matplotlib"
             ],
-            "screenshot": "assets/projects/cifar-classifier.png",
+            "screenshot": "assets/projects/cifar-10.png",
             "github": "https://github.com/FazeFlynn/CIFAR-CLASSIFIER",
             "live": "https://github.com/FazeFlynn/CIFAR-CLASSIFIER"
         },
@@ -113,7 +113,7 @@
                 "Docker",
                 "AWS S3"
             ],
-            "screenshot": "assets/projects/test-pro.png",
+            "screenshot": "assets/projects/cb4u.png",
             "github": "#",
             "live": "https://carbike4u.com/"
         },
@@ -129,7 +129,7 @@
                 "AWS S3",
                 "Chart.js"
             ],
-            "screenshot": "assets/projects/test-2.png",
+            "screenshot": "assets/projects/hotelpos.png",
             "github": "NA",
             "live": "https://aju.jsbglobalinfotech.com/"
         },
@@ -144,7 +144,7 @@
                 "React Native SVG",
                 "HTML Canvas"
             ],
-            "screenshot": "assets/projects/test-3.png",
+            "screenshot": "assets/projects/sblast.png",
             "github": "no-link",
             "live": "https://mineexcellence.com/"
         },
@@ -160,7 +160,7 @@
                 "Firebase",
                 "Google Maps API"
             ],
-            "screenshot": "assets/projects/bttn-app.png",
+            "screenshot": "assets/projects/bttn.png",
             "github": "#",
             "live": "https://admin.bttnservices.com/"
         },
@@ -262,9 +262,9 @@
         }
     ],
     "socials": {
-        "github": "https://github.com/islamkathat",
-        "linkedin": "https://linkedin.com/in/islamkathat",
-        "twitter": "https://twitter.com/islamkathat",
-        "email": "islam.kathat@email.com"
+        "github": "https://github.com/FazeFlynn",
+        "linkedin": "https://www.linkedin.com/in/islam-khan-4644211b2/",
+        "twitter": "https://x.com/fazeflynn",
+        "email": "faiz.14a@gmail.com"
     }
 }

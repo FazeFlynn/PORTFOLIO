@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Islam Kathat — Full Stack Developer & AI/ML Engineer</title>
+    <title>Islam Kathat — AI/ML Engineer & Full Stack Developer</title>
     <meta
       name="description"
-      content="Portfolio of Islam Kathat — Full Stack Developer & AI/ML Engineer building intelligent, beautiful digital experiences."
+      content="Portfolio of Islam Kathat — AI/ML Engineer & Full Stack Developer building intelligent, beautiful digital experiences."
     />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <link rel="icon" href="./assets/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- <link -->
@@ -948,14 +949,41 @@
             Get in Touch
           </a>
 
-          <a
-            href="https://islamkhan.in"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="btn-outline inline-flex items-center justify-center gap-2"
-          >
-            Hire Me
-          </a>
+          <div class="relative inline-block">
+            <!-- Main Button -->
+            <button
+              id="hireBtn"
+              class="btn-outline inline-flex items-center justify-center gap-2 px-5 py-3 rounded-lg"
+            >
+              Resume here
+              <i class="fa-solid fa-chevron-down text-sm"></i>
+            </button>
+
+            <!-- Dropdown -->
+            <div
+              id="resumeMenu"
+              class="hidden absolute mt-3 w-36 shadow-xl rounded-xl overflow-hidden btn-outline z-50"
+            >
+              <a
+                href="./assets/resume/IslamKathatResume_AIML.pdf"
+                target="_blank"
+                class="block px-1 hover:text-[#6c63ff] transition"
+              >
+                AI/ML
+              </a>
+
+
+              <a
+                href="./assets/resume/IslamKathatResume_FullStack.pdf"
+                target="_blank"
+                class="block px-1 hover:text-[#6c63ff] transition mt-2"
+              >
+                Full Stack
+              </a>
+            </div>
+          </div>
+
+
         </div>
       </div>
       <!-- Scroll indicator -->
@@ -1227,6 +1255,20 @@
           console.error("Error loading data:", e);
         }
       }
+
+      const hireBtn = document.getElementById("hireBtn");
+      const resumeMenu = document.getElementById("resumeMenu");
+
+      hireBtn.addEventListener("click", () => {
+        resumeMenu.classList.toggle("hidden");
+      });
+
+      // Optional: close menu when clicking outside
+      document.addEventListener("click", (e) => {
+        if (!hireBtn.contains(e.target) && !resumeMenu.contains(e.target)) {
+          resumeMenu.classList.add("hidden");
+        }
+      });
 
       function renderAll() {
         if (!siteData) return;
