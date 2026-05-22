@@ -56,7 +56,25 @@
     },
     "projects": [
         {
-            "id": 1,
+    "id": 1,
+    "title": "Mistral-7B Fine-Tuning",
+    "category": "AI/ML",
+    "description": "Fine-tuned Mistral-7B-Instruct-v0.3 using QLoRA with PEFT and TRL on 500 domain-specific instruction-response pairs. Applied NF4 4-bit quantization (r=64), cosine learning rate scheduling, Paged AdamW optimizer, and gradient checkpointing to train only 0.5% of parameters efficiently on Nvidia A100 80GB. Reduced perplexity by 13% compared to the base model, tracked experiments with Weights & Biases, merged LoRA adapters into the base model, and published the final model with a Hugging Face model card.",
+    "tech": [
+        "QLoRA",
+        "PEFT",
+        "TRL",
+        "BitsAndBytes",
+        "Hugging Face",
+        "Weights & Biases",
+        "PyTorch"
+    ],
+    "screenshot": "assets/projects/mistral-finetuning.png",
+    "github": "https://github.com/FazeFlynn/fine_tuning_mistral_7b_llm",
+    "live": "https://huggingface.co/FazeFlynn/mistral-7b-llm-architecture-expert"
+},
+        {
+            "id": 2,
             "title": "RAG System",
             "category": "AI/ML",
             "description": "Full-stack Retrieval-Augmented Generation system using FastAPI, ChromaDB, and LLaMA 3.1 via Ollama. Integrated SearXNG web search, Trafilatura scraping, multi-format document ingestion, Sentence Transformers embeddings, overlapping chunking, and cross-encoder re-ranking for accurate real-time retrieval.",
@@ -72,7 +90,7 @@
             "live": "https://rag-frontend-azure-phi.vercel.app/"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "MNIST Digit Classifier",
             "category": "AI/ML",
             "description": "Built multiple digit classification models including MLP, SelectKBest-optimized model, and CNN with BatchNorm achieving 90%+ accuracy. Implemented training optimization techniques, EDA, and performance validation using confusion matrices and classification reports.",
@@ -89,7 +107,7 @@
             "live": "https://github.com/FazeFlynn/Dig_Classification"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "CIFAR-10 Object Classifier",
             "category": "AI/ML",
             "description": "Designed multiple image classification architectures including CNN (92%), ResNet (95%), and EfficientNetV2B0 transfer learning (97%). Applied MixUp, CutMix, Cutout augmentation techniques and exported production-ready models.",
@@ -106,7 +124,7 @@
             "live": "https://github.com/FazeFlynn/CIFAR-CLASSIFIER"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "CarBike4U",
             "category": "Full Stack",
             "description": "Automobile marketplace platform built with a microservices architecture. Implemented Redis caching, RabbitMQ messaging, MongoDB aggregations, AI-powered content rewriting, web scraping pipelines, and AWS S3 storage.",
@@ -124,7 +142,7 @@
             "live": "https://carbike4u.com/"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Hotel POS System",
             "category": "Full Stack",
             "description": "QR-based hotel POS platform with digital menus, kitchen order tracking, payment management, inventory control, analytics dashboards, PDF/Excel exports, and real-time revenue monitoring.",
@@ -140,7 +158,7 @@
             "live": "https://aju.jsbglobalinfotech.com/"
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "SBlast App",
             "category": "Mobile App",
             "description": "Offline-first React Native application for mine blasting operations with RealmDB synchronization, interactive borehole visualizations, blast charts, filtering, and reduced field data entry time.",
@@ -155,7 +173,7 @@
             "live": "https://mineexcellence.com/"
         },
         {
-            "id": 7,
+            "id": 8,
             "title": "BTTN App",
             "category": "Mobile App",
             "description": "Ride-hailing application supporting real-time ride assignments, live driver notifications, Google Maps integration, and real-time location updates with navigation support.",
@@ -171,7 +189,7 @@
             "live": "https://admin.bttnservices.com/"
         },
         {
-            "id": 8,
+            "id": 9,
             "title": "AI Club",
             "category": "Desktop App",
             "description": "Desktop productivity application allowing users to interact with multiple AI platforms through a single prompt and receive responses from all AI systems in parallel.",
@@ -186,7 +204,7 @@
             "live": "https://github.com/FazeFlynn/AI-Club"
         },
         {
-            "id": 9,
+            "id": 10,
             "title": "Web Controls for Students",
             "category": "Chrome Extension",
             "description": "Productivity-focused browser extension that enables dark mode for websites and videos, video playback controls up to 8x speed, and custom filters for an improved learning experience.",
@@ -200,7 +218,7 @@
             "live": "https://chromewebstore.google.com/detail/web-controls-for-students/cebfhocehpaleaipocacbppidnpgodki?pli=1"
         },
         {
-            "id": 10,
+            "id": 11,
             "title": "YouTube Controls for Students",
             "category": "Chrome Extension",
             "description": "Chrome extension for YouTube providing dark mode, advanced video playback controls, custom filters, and productivity enhancements tailored for students.",
