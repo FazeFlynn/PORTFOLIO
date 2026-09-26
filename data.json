@@ -256,10 +256,10 @@
     ],
     "experience": [
         {
-            "role": "MERN Stack Developer",
+            "role": "Full Stack AI Engineer",
             "company": "JSB Global Infotech",
             "period": "May 2025 - May 2026 | Full Time",
-            "description": "Engineered React Native (Expo) applications and deployed React.js/Next.js web platforms, including admin panels and public-facing frontends. Architected backend microservices using Redis, Docker, AWS S3, and AI pipelines to automate scraping and rewriting automotive blogs/news content. Delivered data-driven web and mobile apps using REST APIs, RealmDB, and advanced MongoDB pipelines, reducing response time by 35%."
+            "description": "Built and operated FastAPI/Node.js backend services with Redis, RabbitMQ, Docker, AWS S3, fine-tuned and deployed a retrieval-grounded LLaMA 3.1 support assistant, and improved MongoDB/Redis performance to reduce API response time by 35% across React Native (Expo) and Next.js products."
         },
         {
             "role": "Data Science Intern",
